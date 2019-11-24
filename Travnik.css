@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	background-image: url(Travnik6.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+.navbar {
+  overflow: hidden;
+  background-color:rgba(255, 255, 255, 0.3) ;
+}
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+footer {
+	  
+	  text-align: left;
+      height: 70px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:rgba(255, 255, 255, 0.3);
+	  color: black;
+  }
+.far fa-copyright{
+	color: black;
+}
+.QUOTE{
+	font-size: 30px;
+	text-align: center;
+	font-style: oblique;
+	font-weight: bold;
+}
+a {
+      text-decoration: none;
+      color: ;
+
+  }
+a:hover {
+      color: white;
+      background-color: navy;
+      border-radius: 10px;
+      font-weight: bold;
+  }
+.column {
+  float: left;
+  width: 20%;
+  padding: 1px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity:1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  color: white;
+  font-size: 10px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
